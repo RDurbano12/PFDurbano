@@ -1,0 +1,8 @@
+@mixin flexwrap {
+    display:flex;
+    flex-wrap: wrap;
+}
+/*variables*/
+$fondo:rgb(140, 146, 144);
+$renglon:rgb(189, 186, 186);
+$texto:rgb(240, 248, 255);

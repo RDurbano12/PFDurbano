@@ -1,0 +1,67 @@
+.n-main {
+    background: url(../multimedia/entradafrente.jpg);
+    background-size: cover;
+}
+
+.n-h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.n-div {
+
+    div{
+    @include flexwrap;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+    h3 {
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+    p {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+
+}}}}
+
+.n-div1-img {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 20em;
+    height: 27em;
+}
+
+.n-div2 {
+    @include flexwrap;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+        .n-div2-img {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 20em;
+        height: 23em;
+}}
+
+.n-div2-h3 {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: $texto;
+
+}
+
+.n-div2-p {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color:$texto;
+
+}

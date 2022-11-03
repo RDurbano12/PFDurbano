@@ -326,62 +326,90 @@ h3 {
 
 
 /*******main contacto****/
-.c-main {
+
+.formularios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(189, 186, 186);
+}
+.main-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form-fieldset {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background: rgb(145, 166, 175);
-    align-items: flex-start;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    border: 5px solid black
+}
+
+.form-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.texto {
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    width: 280px;
+    height: 160px;
+    background-image: url(../multimedia/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(189, 186, 186);
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.boton {
+    width: 100%;
+    background-color: rgb(189, 186, 186);
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+.renglon {
+    background-color: rgb(189, 186, 186);
+    color: aliceblue;
     
+}
+.section2 {
+    background-color: rgb(189, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
-
-.c-main-form {
+.section1 {
+    background-color: rgb(189, 186, 186);
     display: flex;
-    color: rgb(25, 12, 71);
-    background-color: rgb(128, 128, 128);
-    border: 5px solid rgb(25, 12, 71);
-    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
     
 }
-
-.c-main-form-fieldset {
-    margin: 10px;
-}
-
-.c-main-form-fieldset-legend {
-    font-size: 20px;
-    color: rgb(25, 12, 71);
-
-}
-
-.c-main-form-fieldset-div {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-
-}
-
-.c-main-form-fieldset-div1 {
-    margin: 15px;
-    padding: 5px;
-    display: flex;
-    align-items: flex-start;
-}
-
-.c-main-form-fieldset-div2 {
-    display: flex;
+.opinion {
+    background-color: rgb(189, 186, 186);
+     display: flex;
+    /*flex-wrap: wrap;*/
     justify-content: center;
-    color: rgb(25, 12, 71);
 }
-
-.c-main-form-fieldset-div3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: rgb(25, 12, 71);
+.div1 {
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 15px;
+    text-align: center;
 }
+/*****aca comienza footer**/
 
 .footer {
     background-color: rgb(140, 146, 144);

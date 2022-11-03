@@ -1,0 +1,23 @@
+.footer {
+    background-color: $fondo;
+    @include flexwrap;
+    justify-content: space-around;
+    align-items: center;
+    color: $texto;
+
+     a {
+    margin: 10px;
+    text-align: left;
+    color: $texto;
+    font-weight: 200;
+    text-decoration: none;
+
+     a:hover {
+    color: rgb(22, 22, 116);
+
+     p {
+    text-align: center;
+    color:$texto;
+    margin: 10px;
+    font-weight: 200;
+}}}}

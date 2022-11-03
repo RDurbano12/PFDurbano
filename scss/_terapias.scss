@@ -1,0 +1,24 @@
+.t-main {
+    background: url(../multimedia/saladeespera.jpg);
+    background-size: cover;
+
+    h1 {
+    text-align: center;
+
+    ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    list-style-type: decimal;
+
+}}}
+
+.t-main-ul-div p {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.t-main-ul-div video {
+    width: 15em;
+    height: 15em;
+}

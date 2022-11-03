@@ -1,0 +1,76 @@
+.formularios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $renglon;
+
+        .section1 {
+        background-color: $renglon;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+            .main-form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+                .main-form-fieldset {
+                display: flex;
+                flex-direction: column;
+                text-transform: uppercase;
+                align-items: center;
+                background-color: grey;
+                border-radius: 10px;
+                border: 5px solid black
+}}}}
+
+.form-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.texto {
+    display: flex;
+    text-align: center;
+    color: $texto;
+    width: 280px;
+    height: 160px;
+    background-image: url(../multimedia/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $renglon;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.boton {
+    width: 100%;
+    background-color: $renglon;
+    color: $texto;
+    margin-bottom: 5px;
+}
+
+.renglon {
+    background-color: $renglon;
+    color: $texto;
+    
+}
+.section2 {
+    @extend .section1; 
+}
+
+.opinion {
+    background-color: $renglon;
+     display: flex;
+    justify-content: center;
+}
+.div1 {
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 15px;
+    text-align: center;
+}

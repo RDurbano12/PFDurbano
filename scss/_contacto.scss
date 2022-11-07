@@ -9,12 +9,12 @@
         display: flex;
         justify-content: center;
         align-items: center; 
-
+        
             .main-form {
             display: flex;
             align-items: center;
             justify-content: center;
-
+            
                 .main-form-fieldset {
                 display: flex;
                 flex-direction: column;
@@ -22,7 +22,8 @@
                 align-items: center;
                 background-color: grey;
                 border-radius: 10px;
-                border: 5px solid black
+                border: 5px solid black;
+
 }}}}
 
 .form-items {

@@ -8,29 +8,30 @@
     div {
     @include flexwrap;
     height: 100vh;
-
+    }
         h2 {
+       text-align: center;
         margin-top: 2em;
         margin-left: 1em;
-
+        }
         p {
         text-align: center;
         margin-top: 60px;
         margin: 10px;
         height: 40em;
         padding-top: 20px;
-
-}}}}
+        }
+}
 .i-aside {
     background: rgb(145, 166, 175);
-    flex-basis: 200px;
+    
 
     div {
        text-align: center;
-    
+    }
         video {
-        width: 18em;
-        height: 18em;
+        width: 80%;
+        height: 80%;
         margin: 20px;
-
-}}}
+        }
+}

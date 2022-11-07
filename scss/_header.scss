@@ -1,5 +1,5 @@
 .header {
-   @include flexwrap;
+    @include flexwrap;
     justify-content: space-around;
     align-items: flex-end;
     background-color: $fondo;
@@ -9,7 +9,40 @@
     flex-basis: 100px;
     font-size: 3.6vw;
 
+    .logo img {
+        display: flex;
+        height: 100px;
+        margin-top: 15px;
+        animation-name: moverse;
+        animation-duration: 3s;
+        animation-direction: alternate-reverse;
+        position: relative;
+    }
+
+    nav {
+        .ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            display: flex;
+            margin: 10px;
+        }
+
+        a {
+
+            color: $texto;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(22, 22, 116);
+        }
+    }
 }
+
+
 
 .h1,
 h2,
@@ -17,15 +50,7 @@ h3 {
     text-transform: uppercase;
 }
 
-.logo img {
-    display: flex;
-    height: 100px;
-    margin-top: 15px;
-    animation-name: moverse;
-    animation-duration: 3s;
-    animation-direction: alternate-reverse;
-    position: relative;
-}
+
 
 @keyframes moverse {
     0% {
@@ -36,20 +61,3 @@ h3 {
         left: 90%
     }
 }
-
-.ul {
-    display: flex;
-    list-style: none;
-
-    li {
-    display: flex;
-    margin: 10px;
-
-    a {
-
-    color: $texto;
-    text-decoration: none;
-
-    a:hover {
-    color: rgb(22, 22, 116);
-}}}}

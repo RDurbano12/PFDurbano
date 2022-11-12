@@ -47,15 +47,11 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 10px;
-
     .n-div2-img {
         margin-right: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 20px;
-        width: 20em;
+        width: 25em;
         height: 23em;
         border-radius: 5%;
     }
@@ -64,8 +60,6 @@ flex-direction: row;
         margin-left: 10px;
         margin-bottom: 15px;
         font-weight: 400;
-       
-
     }
 
     p {
@@ -76,8 +70,5 @@ flex-direction: row;
         padding: 10px;
         background-color: rgba(238, 238, 226, 0.452);
         border-radius: 15px;
-       
-        
-        
     }
 }

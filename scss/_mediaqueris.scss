@@ -15,11 +15,6 @@
         grid-column: 1 / 4;
     }
 
-    .c-main {
-        grid-row: 2 / 6;
-        grid-column: 1 / 4;
-    }
-
     .t-main {
         grid-row: 2 / 6;
         grid-column: 1 / 4;
@@ -62,6 +57,10 @@
     } 
    
     .n-div2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .textovideo{
         display: flex;
         flex-wrap: wrap;
     }

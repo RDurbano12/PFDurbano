@@ -133,15 +133,12 @@ h3 {
 
 .n-div2 {
   display: flex;
-  flex-direction: row;
-  margin-left: 10px;
-  margin-right: 20px;
-  margin-top: 10px; }
+  flex-direction: row; }
   .n-div2 .n-div2-img {
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 20px;
-    width: 20em;
+    width: 25em;
     height: 23em;
     border-radius: 5%; }
   .n-div2 h3 {
@@ -165,15 +162,29 @@ h3 {
   .t-main ul {
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
+    margin: 25px 25px 0 25px;
     list-style-type: decimal; }
     .t-main ul .t-main-ul-div p {
-      margin-left: 10px;
       align-items: center;
-      background-color: rgba(238, 238, 226, 0.452); }
+      text-align: start;
+      margin: 10px;
+      padding: 20px;
+      background-color: rgba(238, 238, 226, 0.452);
+      border-radius: 10px; }
     .t-main ul .t-main-ul-div video {
       width: 15em;
-      height: 15em; }
+      height: 15em;
+      border-radius: 10px; }
+
+.textovideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.videosteopatia {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black; }
 
 .s-main {
   text-align: center;
@@ -272,13 +283,15 @@ h3 {
 .opinion {
   background-color: #bdbaba;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 20px; }
 
 .div1 {
   border: 2px solid black;
   margin: 2px;
   border-radius: 15px;
-  text-align: center; }
+  text-align: center;
+  margin: 10px; }
 
 @media screen and (min-width: 900px) {
   .conteiner {
@@ -289,9 +302,6 @@ h3 {
     grid-column: 1 / span 3;
     font-size: 30px; }
   .n-main {
-    grid-row: 2 / 6;
-    grid-column: 1 / 4; }
-  .c-main {
     grid-row: 2 / 6;
     grid-column: 1 / 4; }
   .t-main {
@@ -321,5 +331,8 @@ h3 {
     display: flex;
     flex-wrap: wrap; }
   .n-div2 {
+    display: flex;
+    flex-wrap: wrap; }
+  .textovideo {
     display: flex;
     flex-wrap: wrap; } }

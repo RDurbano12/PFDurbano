@@ -8,18 +8,33 @@
     ul {
     display: flex;
     flex-direction: column;
-    margin-left: 25px;
+    margin: 25px 25px 0 25px;
     list-style-type: decimal;
     
 
     .t-main-ul-div p {
-    margin-left: 10px;
+    
     align-items: center;
+    text-align: start;
+    margin: 10px;
+    padding: 20px;
     background-color: rgba(238, 238, 226, 0.452);
+    border-radius: 10px;
 }
 
     .t-main-ul-div video {
     width: 15em;
     height: 15em;
+    border-radius: 10px;
 }
 }}
+.textovideo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.videosteopatia{
+    width:80%;
+    height:80%;
+    border: 1px solid black;
+}
